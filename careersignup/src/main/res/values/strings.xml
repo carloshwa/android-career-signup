@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Double Encore Sign Up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">E-mail</string>
+    <string name="school">School</string>
+    <string name="school_header">SCHOOL</string>
+    <string name="grade_header">GRADE</string>
+    <string name="action_cancel">Clear</string>
+    <string name="action_save">DONE</string>
+    <string name="thank_you">Thanks, %1$s %2$s!</string>
+
+    <string name="school_ac">Aurora Central</string>
+    <string name="school_east">East</string>
+    <string name="school_gw">George Washington</string>
+    <string name="school_man">Manual</string>
+    <string-array name="school_array">
+        <item>@string/school_ac</item>
+        <item>@string/school_east</item>
+        <item>@string/school_gw</item>
+        <item>@string/school_man</item>
+    </string-array>
+
+    <string name="grade_other">Other</string>
+    <string name="grade_9">9th</string>
+    <string name="grade_10">10th</string>
+    <string name="grade_11">11th</string>
+    <string name="grade_12">12th</string>
+    <string name="missing_fields">I need your name &amp; e-mail address!</string>
+    <string name="error">Oops!</string>
+    <string-array name="grade_array">
+        <item>@string/grade_other</item>
+        <item>@string/grade_9</item>
+        <item>@string/grade_10</item>
+        <item>@string/grade_11</item>
+        <item>@string/grade_12</item>
+    </string-array>
+
+</resources>

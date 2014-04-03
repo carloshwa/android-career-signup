@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.doubleencore.careersignup.MainActivity" >
+    
+    <item android:id="@+id/action_cancel"
+        android:title="@string/action_cancel"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"/>
+    <item android:id="@+id/action_save"
+        android:title="@string/action_save"
+        android:orderInCategory="110"
+        android:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_menu_send"/>
+</menu>
