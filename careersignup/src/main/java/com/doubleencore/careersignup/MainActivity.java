@@ -1,20 +1,29 @@
 package com.doubleencore.careersignup;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Log;
-import android.view.*;
+import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.*;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
+import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.SpinnerAdapter;
+import android.widget.TextView;
+import android.widget.Toast;
+
 import com.j256.ormlite.android.apptools.OpenHelperManager;
 
 import java.sql.SQLException;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getName();
     private static DatabaseHelper sDatabaseHelper;
 
